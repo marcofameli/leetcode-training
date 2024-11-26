@@ -1,3 +1,5 @@
+package ArraysExercises;
+
 public class Main3 {
 //    Exercício 3: Buscar por um Elemento no Array
 //    Agora, vamos fazer um exercício onde você precisa procurar um valor específico
@@ -9,13 +11,12 @@ public class Main3 {
 //    Se encontrar o valor, imprima "Valor encontrado!" e saia do loop.
 
     public static void main(String[] args) {
-        int[] arrayInteiro = {1, 2, 3, 4, 5};
-        int valorProcurado = 3;
-
+        int[] arrayInteiro = {2, 3, 4, 5, 6, 7, 8, 9, 10};
+        int valorProcurado = 24;
 
         for (int i = 0; i < arrayInteiro.length; i++) {
             if (valorProcurado == arrayInteiro[i]) {
-                System.out.println("Valor encontrado foi " + valorProcurado);
+                System.out.println("o valor encontrado foi " + valorProcurado);
                 return;
             }
 

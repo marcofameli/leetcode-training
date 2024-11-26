@@ -1,3 +1,5 @@
+package ArraysExercises;
+
 public class Main6 {
     //    Exercício 6:
     //    Soma dos Elementos Pares de um Array

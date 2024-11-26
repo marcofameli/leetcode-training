@@ -31,3 +31,9 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Diretórios de saída de compilação
+out/
+
+#
+iml
