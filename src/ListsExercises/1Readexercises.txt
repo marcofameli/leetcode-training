@@ -1,0 +1,85 @@
+
+Aqui estão os exercícios com mais instruções detalhadas para te guiar. Isso vai te ajudar a focar na lógica sem ficar perdido em como começar.
+
+Exercícios com ArrayList
+1. Filtrar Números Pares e Ímpares
+Crie um ArrayList de inteiros chamado numeros.
+Preencha o ArrayList com 20 números aleatórios entre 1 e 100
+ (use a classe Random para gerar os números).
+Crie dois novos ArrayLists chamados pares e impares.
+Percorra o ArrayList original com um loop for.
+Para cada número, use a operação % 2 para verificar se ele é par ou ímpar.
+Adicione os números pares ao ArrayList pares e os ímpares ao ArrayList impares.
+Imprima os dois ArrayLists separados.
+
+2. Remover Elementos Repetidos
+Crie um ArrayList de inteiros chamado numeros e adicione alguns números repetidos
+ como {1, 3, 5, 3, 7, 5, 8, 1, 10}.
+Crie um novo ArrayList chamado numerosSemRepetidos.
+Percorra o ArrayList original usando um loop for.
+Para cada elemento, verifique se ele já está no numerosSemRepetidos.
+Caso não esteja, adicione o elemento.
+Imprima o ArrayList numerosSemRepetidos.
+
+3. Verificar Subsequência
+Crie dois ArrayLists de inteiros:
+O primeiro com 10 números chamados principal (ex.: {1, 3, 5, 7, 9, 11, 13, 15, 17, 19}).
+O segundo com 3 números chamados subsequencia (ex.: {3, 9, 11}).
+Percorra o ArrayList principal e verifique se os números da subsequencia aparecem na mesma ordem.
+Use um índice separado para a subsequencia que avança somente se o número da subsequencia
+for encontrado no principal.
+Imprima "É uma subsequência" se todos os números da subsequencia forem encontrados na ordem.
+Caso contrário, imprima "Não é uma subsequência".
+
+4. Ordenar por Critério
+Crie uma classe Pessoa com os atributos:
+String nome
+int idade
+Crie um ArrayList chamado pessoas e adicione pelo menos 5 objetos Pessoa.
+Use o método sort da classe Collections e um Comparator personalizado para ordenar o
+ArrayList pelo atributo idade, em ordem crescente.
+Imprima o ArrayList ordenado.
+
+5. Mesclar Duas Listas
+Crie dois ArrayLists de inteiros chamados lista1 e lista2.
+Preencha lista1 com 10 números e lista2 com 5 números.
+Crie um terceiro ArrayList chamado listaMesclada.
+Use um loop para alternar os elementos de lista1 e lista2 e adicioná-los na listaMesclada.
+Caso uma das listas acabe antes, adicione os números restantes da outra lista no final.
+Imprima a listaMesclada.
+============================================================================================
+Exercícios com LinkedList
+1. Inverter a Lista
+Crie uma LinkedList chamada numeros com 10 números aleatórios entre 1 e 100.
+Use um loop para inverter a ordem dos elementos da LinkedList manualmente:
+Troque o primeiro elemento com o último, o segundo com o penúltimo, e assim por diante.
+Imprima a lista antes e depois da inversão.
+
+2. Remover Elemento em Posições Específicas
+Crie uma LinkedList chamada nomes com 6 elementos (ex.: {"Ana", "João", "Carlos", "Maria", "Paulo", "Bianca"}).
+Remova os elementos das posições 2 e 4 (baseado em índices iniciados em 0).
+Use o método remove(int index) da LinkedList.
+Imprima a lista antes e depois da remoção.
+
+3. Buscar Elemento e Remover
+Crie uma LinkedList de inteiros chamada numeros.
+Preencha a lista com pelo menos 10 números (ex.: {1, 3, 5, 7, 9, 11, 13, 15, 17, 19}).
+Peça ao usuário um número para buscar na lista (use Scanner).
+Verifique se o número está presente na lista:
+Se estiver, remova a primeira ocorrência do número.
+Caso contrário, imprima uma mensagem indicando que o número não foi encontrado.
+Imprima a lista após a remoção (se aplicável).
+
+4. Soma de Elementos em uma Lista Circular
+Crie uma LinkedList chamada numeros com 5 números aleatórios.
+Simule o comportamento de uma lista circular:
+Após o último elemento, volte para o primeiro.
+Crie um loop para percorrer os elementos da lista circularmente e calcule a soma dos elementos.
+Saia do loop após percorrer toda a lista uma vez.
+Imprima a soma total.
+
+5. Duplicar Elementos
+Crie uma LinkedList chamada numeros com pelo menos 6 números inteiros.
+Multiplique cada número por 2 e atualize a lista.
+Percorra a lista usando um loop.
+Imprima a lista antes e depois da modificação.
